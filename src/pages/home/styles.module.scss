@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+    .title{
+        margin: 40px auto 0px auto;
+        width: 80%;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+
+        h1{
+            margin-left: 20px;
+            color: #fff;
+        }
+
+    }
+
+    .cardBox{
+        background-color: blueviolet;
+        margin: 0 auto 0px auto;
+        width: 80%;
+        height: 20vh;
+    }
+
+    .listViwe{
+        background-color: brown;
+        margin: 0 auto 0px auto;
+        width: 80%;
+        height: 60vh;
+        overflow-y: auto;
+    }
+}
